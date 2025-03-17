@@ -1,3 +1,7 @@
+/* Hace que la redirección a los distintos apartados de la página no se haga de forma repentina, sino con una transición suave y lenta. */
+html{
+    scroll-behavior: smooth;
+}
 /* Oculta la barra de desplazamiento pero mantiene el desplazamiento funcional. */
 ::-webkit-scrollbar{
     width: 7px;
